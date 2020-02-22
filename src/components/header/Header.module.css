@@ -1,0 +1,15 @@
+import React from 'react';
+
+
+const Header = ()=> {
+    return(
+        <div>
+            <div className={s.container}>
+                <NavMenu/>
+            </div>
+        </div>
+    )
+};
+
+
+export default Header;
