@@ -1,0 +1,13 @@
+.mainBlock {
+    background-image: url("../../assets/images/fon.jpg");
+    background-color: rgba(255,255,255,0.5);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 60vh;
+    background-repeat: repeat;
+}
+
+.wrapper {
+    padding-top: 100px;
+}
+

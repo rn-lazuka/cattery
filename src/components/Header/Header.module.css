@@ -1,0 +1,19 @@
+.header {
+    height: 100px;
+    background-color: #f8f6ee;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+

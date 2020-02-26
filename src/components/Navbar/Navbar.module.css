@@ -1,0 +1,23 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 550px;
+    justify-content: space-between;
+    padding-right: 100px;
+}
+
+.item a {
+    text-decoration: none;
+    padding: 3px;
+    color: black;
+}
+.item a.activeLink {
+    color: gold;
+}
+
+@media (max-device-width: 1024px){
+    .nav{
+        padding-right: 0;
+    }
+}

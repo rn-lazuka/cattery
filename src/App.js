@@ -1,26 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {Redirect, Route, Switch, withRouter} from "react-router-dom";
+import Header from "./components/Header/Header";
+import Preloader from "./components/common/Preloader/Preloader";
+import Main from "./components/Main/Main";
+import {compose} from "redux";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+const App = () => {
+    return (
+        <div className='app-wrapper'>
+            <Header/>
+            <div className='app-wrapper-content'>
+                <React.Suspense fallback={<Preloader/>}>
+                    <Switch>
+                        <Route exact path='/' render={() => <Redirect to={'/main'}/>}/>
+                        <Route exact path='/main' render={() => <Main/>}/>
+                        {/*<Route path='/parents' render={() => <Parents/>}/>*/}
+                        {/*<Route path='/kittens' render={() => <Kittens/>}/>*/}
+                        {/*<Route path='/exhibitions' render={() => <Exhibitions/>}/>*/}
+                        {/*<Route path='/reviews' render={() => <Reviews/>}/>*/}
+                        {/*<Route path='/about-us'  render={() => <AboutUs/>}/>*/}
+                        {/*<Route path='/blog'  render={() => <Blog/>}/>*/}
+                        {/*<Route path='/contacts' render={() => <Contacts/>}/>*/}
+                    </Switch>
+                </React.Suspense>
+            </div>
+        </div>
+    );
 }
 
-export default App;
+
+export default compose(
+    withRouter)(App);
