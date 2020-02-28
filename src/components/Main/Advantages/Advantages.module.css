@@ -1,0 +1,33 @@
+.advBlock {
+    height: 85vh;
+    background-color: #f8f6ee;
+    background-image: url('../../../assets/images/fon.jpg');
+    background-position-x: 0;
+    background-position-y: 0;
+    width: 100%;
+    background-size: 60vh;
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper {
+    height: 100%;
+    background-color: #ffffff;
+    color: #232a34;
+}
+.title {
+    padding-top: 15px;
+    height: max-content;
+    width: 70vw;
+    align-content: center;
+    text-align: center;
+}
+
+.itemsBlock {
+height: max-content;
+}
+.item {
+    max-width: 350px;
+}
