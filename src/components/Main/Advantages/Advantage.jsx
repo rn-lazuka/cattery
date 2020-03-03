@@ -4,8 +4,8 @@ import s from './Advantage.module.css'
 function Advantage(props) {
     return (
         <div className={s.item}>
-            <div style={{backgroundImage: `url $(props.icon)`}}></div>
-            <div className={s.title}>{props.title}</div>
+            <div className={s.icon} style={{backgroundImage: `url(${props.icon})`}}></div>
+            <div className={s.title}><b>{props.title}</b></div>
             <div className={s.description}>{props.description}</div>
         </div>
     );

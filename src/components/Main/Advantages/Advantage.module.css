@@ -1,9 +1,24 @@
 .item {
+    margin-top: 10px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description {
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
 
 }
-.description{
 
-}
-.title{
+.icon {
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+    background-position: center center;
 
 }
