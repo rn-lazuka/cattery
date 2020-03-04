@@ -1,27 +1,31 @@
 {
   "files": {
-    "main.css": "/cattery/static/css/main.f5639add.chunk.css",
-    "main.js": "/cattery/static/js/main.901ec483.chunk.js",
-    "main.js.map": "/cattery/static/js/main.901ec483.chunk.js.map",
-    "runtime-main.js": "/cattery/static/js/runtime-main.84d800c6.js",
-    "runtime-main.js.map": "/cattery/static/js/runtime-main.84d800c6.js.map",
-    "static/js/2.9202c5fd.chunk.js": "/cattery/static/js/2.9202c5fd.chunk.js",
-    "static/js/2.9202c5fd.chunk.js.map": "/cattery/static/js/2.9202c5fd.chunk.js.map",
+    "main.css": "/cattery/static/css/main.72a76463.chunk.css",
+    "main.js": "/cattery/static/js/main.cc2bb567.chunk.js",
+    "main.js.map": "/cattery/static/js/main.cc2bb567.chunk.js.map",
+    "runtime-main.js": "/cattery/static/js/runtime-main.d0fc9111.js",
+    "runtime-main.js.map": "/cattery/static/js/runtime-main.d0fc9111.js.map",
+    "static/css/2.563af9af.chunk.css": "/cattery/static/css/2.563af9af.chunk.css",
+    "static/js/2.d00d3638.chunk.js": "/cattery/static/js/2.d00d3638.chunk.js",
+    "static/js/2.d00d3638.chunk.js.map": "/cattery/static/js/2.d00d3638.chunk.js.map",
     "index.html": "/cattery/index.html",
-    "precache-manifest.77a13dbe66a964fc0d44af068c86df76.js": "/cattery/precache-manifest.77a13dbe66a964fc0d44af068c86df76.js",
+    "precache-manifest.7009ba548712fc538a543b0914c5743e.js": "/cattery/precache-manifest.7009ba548712fc538a543b0914c5743e.js",
     "service-worker.js": "/cattery/service-worker.js",
-    "static/css/main.f5639add.chunk.css.map": "/cattery/static/css/main.f5639add.chunk.css.map",
-    "static/js/2.9202c5fd.chunk.js.LICENSE.txt": "/cattery/static/js/2.9202c5fd.chunk.js.LICENSE.txt",
+    "static/css/2.563af9af.chunk.css.map": "/cattery/static/css/2.563af9af.chunk.css.map",
+    "static/css/main.72a76463.chunk.css.map": "/cattery/static/css/main.72a76463.chunk.css.map",
+    "static/js/2.d00d3638.chunk.js.LICENSE.txt": "/cattery/static/js/2.d00d3638.chunk.js.LICENSE.txt",
     "static/media/Main.module.css": "/cattery/static/media/MainPhoto.cf784403.jpg",
     "static/media/cat.png": "/cattery/static/media/cat.fa1dce4c.png",
     "static/media/character.png": "/cattery/static/media/character.0f8f2925.png",
     "static/media/Advantages.module.css": "/cattery/static/media/fon.9dfeca75.jpg",
+    "static/media/ContactForm.module.css": "/cattery/static/media/footprint.a2a60e8a.png",
     "static/media/loading.svg": "/cattery/static/media/loading.dec3ae46.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.84d800c6.js",
-    "static/js/2.9202c5fd.chunk.js",
-    "static/css/main.f5639add.chunk.css",
-    "static/js/main.901ec483.chunk.js"
+    "static/js/runtime-main.d0fc9111.js",
+    "static/css/2.563af9af.chunk.css",
+    "static/js/2.d00d3638.chunk.js",
+    "static/css/main.72a76463.chunk.css",
+    "static/js/main.cc2bb567.chunk.js"
   ]
 }
