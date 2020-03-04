@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import s from './Main.module.css'
 import Advantages from "./Advantages/Advantages";
 import Footer from "../Footer/Footer";
+import ContactForm from "../ContactForm/ContactForm";
 
 
 class Main extends Component {
@@ -23,6 +24,7 @@ class Main extends Component {
                     </div>
                 </div>
                 <Advantages/>
+                <ContactForm/>
                 <Footer/>
             </div>
         );

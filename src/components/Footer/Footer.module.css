@@ -7,11 +7,15 @@
 }
 
 .title {
-
+margin: 5px 0;
 }
 
 .items img {
     height: 50px;
     width: 50px;
+    margin: 5px;
 }
 
+.allRights {
+    font-size: x-small;
+}

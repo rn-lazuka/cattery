@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Advantages.module.css'
-import Advantage from "./Advantage";
+import Advantage from "./Advantage/Advantage";
 import documents from '../../../assets/images/mainIcons/documents.png'
 import delivery from '../../../assets/images/mainIcons/delivery.png'
 import cat from '../../../assets/images/mainIcons/cat.png'

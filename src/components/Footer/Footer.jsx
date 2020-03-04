@@ -13,24 +13,24 @@ function Footer() {
                 Sunhunters
             </div>
             <nav className={s.items}>
-                <a href={"#"} target={'_blank'}>
+                <a href={"https://www.facebook.com/best.bengals"} target={'_blank'}>
                     <img src={fb} alt="#"/>
                 </a>
                 <a href={"#"} target={'_blank'}>
                     <img src={telegram} alt="#"/>
                 </a>
-                <a href={"#"} target={'_blank'}>
+                <a href={"https://wa.me/375296518395"} target={'_blank'}>
                     <img src={whatsapp} alt="#"/>
                 </a>
-                <a href={"#"} target={'_blank'}>
+                <a href={"https://www.instagram.com/best.bengals/"} target={'_blank'}>
                     <img src={instagram} alt="#"/>
                 </a>
-                <a href={"#"} target={'_blank'}>
+                <a href={"tel:+375(29)651-83-95"}>
                     <img src={mobile} alt="#"/>
                 </a>
 
             </nav>
-            <div>2020 © Все права защищены</div>
+            <div className={s.allRights}>2020 © Все права защищены</div>
         </div>
     );
 }
