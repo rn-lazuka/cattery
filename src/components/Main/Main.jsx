@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import s from './Main.module.css'
+import '../../App.css'
 import Advantages from "./Advantages/Advantages";
 import Footer from "../Footer/Footer";
 import ContactForm from "../ContactForm/ContactForm";
@@ -10,7 +11,7 @@ class Main extends Component {
         return (
             <div>
                 <div className={s.mainBlock}>
-                    <div className={s.blockForNav}></div>
+                    <div className={'blockForNav'}></div>
                     <div className={s.wrapper}>
                         <div className={s.context}><h1>SUNHUNTERS</h1>
                             <h2> Питомник Бенгальских

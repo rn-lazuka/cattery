@@ -15,6 +15,13 @@ margin: 5px 0;
     width: 50px;
     margin: 5px;
 }
+.items a:hover {
+    transform: rotate(360deg);
+}
+.items img:hover {
+    transform: rotate(360deg);
+    transition: all 0.5s ease;
+}
 
 .allRights {
     font-size: x-small;

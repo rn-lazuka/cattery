@@ -5,6 +5,9 @@ import Header from "./components/Header/Header";
 import Preloader from "./components/common/Preloader/Preloader";
 import Main from "./components/Main/Main";
 import {compose} from "redux";
+import Parents from "./components/Parents/Parents";
+import FemalesParents from "./components/Parents/FemalesParents/FemalesParents";
+import MaleParentContainer from "./components/Parents/MalesParents/MaleParentContainer";
 
 
 const App = () => {
@@ -16,7 +19,9 @@ const App = () => {
                     <Switch>
                         <Route exact path='/' render={() => <Redirect to={'/main'}/>}/>
                         <Route exact path='/main' render={() => <Main/>}/>
-                        {/*<Route path='/parents' render={() => <Parents/>}/>*/}
+                        <Route exact path='/parents' render={() => <Parents/>}/>
+                        <Route  path='/parents/females' render={() => <FemalesParents/>}/>
+                        <Route  path='/parents/males' render={() => <MaleParentContainer/>}/>
                         {/*<Route path='/kittens' render={() => <Kittens/>}/>*/}
                         {/*<Route path='/exhibitions' render={() => <Exhibitions/>}/>*/}
                         {/*<Route path='/reviews' render={() => <Reviews/>}/>*/}

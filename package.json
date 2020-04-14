@@ -12,6 +12,7 @@
     "gh-pages": "^2.2.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-image-gallery": "^1.0.7",
     "react-redux": "^7.2.0",
     "react-responsive": "^8.0.3",
     "react-reveal": "^1.2.2",
@@ -41,5 +42,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/react-redux": "^7.1.7",
+    "@types/react-router-dom": "^5.1.4",
+    "@types/redux-thunk": "^2.1.0"
   }
 }

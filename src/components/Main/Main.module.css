@@ -1,17 +1,7 @@
 .mainBlock {
     height: 100vh;
-    /*background-image: url("../../assets/images/fon.jpg");*/
-    /*background-color: rgba(255, 255, 255, 0.5);*/
-    /*background-position-x: 0;*/
-    /*background-position-y: 0;*/
-    /*width: 100%;*/
-    /*background-size: 60vh;*/
-    /*background-repeat: repeat;*/
 }
 
-.blockForNav {
-    height: 15vh;
-}
 
 .wrapper {
     display: flex;

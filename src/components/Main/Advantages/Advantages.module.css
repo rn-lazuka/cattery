@@ -1,5 +1,5 @@
 .advBlock {
-    height: 85vh;
+    min-height: 85vh;
     background-color: #f8f6ee;
     background-image: url('../../../assets/images/fon.jpg');
     background-position-x: 0;
@@ -14,10 +14,10 @@
 }
 
 .wrapper {
-    height: 100%;
     background-color: #ffffff;
     color: #232a34;
     width: 70vw;
+    min-height: 85vh;
 }
 
 .title {
@@ -37,6 +37,14 @@
 
 @media (max-device-width: 1024px) {
     .advBlock {
-        height: min-content;
+
+    }
+    .wrapper{
+
+    }
+    .itemsBlock {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
 }
