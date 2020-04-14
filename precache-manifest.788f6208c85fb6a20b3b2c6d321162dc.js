@@ -1,31 +1,47 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d9c99e6deb07952a501ddab22704fefd",
+    "revision": "492a1f7daf9c57938a017efdec6e1476",
     "url": "/cattery/index.html"
   },
   {
-    "revision": "631b1c93e8e8ba448df4",
-    "url": "/cattery/static/css/2.563af9af.chunk.css"
+    "revision": "3633f35296242b04acfb",
+    "url": "/cattery/static/css/2.5b09f010.chunk.css"
   },
   {
-    "revision": "6c14a98e1c4fb59577d6",
-    "url": "/cattery/static/css/main.72a76463.chunk.css"
+    "revision": "0281eb442fd4f8ee8090",
+    "url": "/cattery/static/css/main.146cb69d.chunk.css"
   },
   {
-    "revision": "631b1c93e8e8ba448df4",
-    "url": "/cattery/static/js/2.d00d3638.chunk.js"
+    "revision": "3633f35296242b04acfb",
+    "url": "/cattery/static/js/2.8a3b9b1b.chunk.js"
   },
   {
     "revision": "9d11307d0f4add8f1fb94ce38a4f8816",
-    "url": "/cattery/static/js/2.d00d3638.chunk.js.LICENSE.txt"
+    "url": "/cattery/static/js/2.8a3b9b1b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6c14a98e1c4fb59577d6",
-    "url": "/cattery/static/js/main.cc2bb567.chunk.js"
+    "revision": "0281eb442fd4f8ee8090",
+    "url": "/cattery/static/js/main.b555c159.chunk.js"
   },
   {
     "revision": "d3f873fa1304c9d46996",
     "url": "/cattery/static/js/runtime-main.d0fc9111.js"
+  },
+  {
+    "revision": "51cdff4075f512d9b28c119481836729",
+    "url": "/cattery/static/media/1.51cdff40.jpg"
+  },
+  {
+    "revision": "f09b9a4f216e26d14206130894ed9727",
+    "url": "/cattery/static/media/2.f09b9a4f.jpg"
+  },
+  {
+    "revision": "9e57b98385e926224d690ae70ac83c77",
+    "url": "/cattery/static/media/3.9e57b983.jpg"
+  },
+  {
+    "revision": "0f1a4e971fcafc817ac60f91697c2a93",
+    "url": "/cattery/static/media/4.0f1a4e97.jpg"
   },
   {
     "revision": "cf784403bd23a8f583aed141021fe930",
