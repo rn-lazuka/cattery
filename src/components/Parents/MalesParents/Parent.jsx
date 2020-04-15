@@ -2,10 +2,10 @@ import ImageGallery from 'react-image-gallery';
 import React from "react";
 import '../../../App.css'
 import "react-image-gallery/styles/css/image-gallery.css";
-import s from "./MalesParents.module.css";
+import s from "./Parent.module.css";
 import Footer from "../../Footer/Footer";
 
-class MalesParents extends React.Component {
+class Parent extends React.Component {
     images = this.props.sliderArray.map(photo=>{return {original: photo,thumbnail:photo}});
      someComponent = props => {
         // console.log(props.someProps.objectKey)
@@ -43,4 +43,4 @@ class MalesParents extends React.Component {
 }
 
 
-export default MalesParents
+export default Parent

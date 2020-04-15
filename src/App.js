@@ -6,11 +6,13 @@ import Preloader from "./components/common/Preloader/Preloader";
 import Main from "./components/Main/Main";
 import {compose} from "redux";
 import Parents from "./components/Parents/Parents";
-import FemalesParents from "./components/Parents/FemalesParents/FemalesParents";
-import MaleParentContainer from "./components/Parents/MalesParents/MaleParentContainer";
+import ParentContainer from "./components/Parents/MalesParents/ParentContainer";
+import {useSelector} from "react-redux";
+
 
 
 const App = () => {
+    const parents = useSelector((state) => state.parents.parents);
     return (
         <div className='app-wrapper'>
             <Header/>
@@ -19,9 +21,13 @@ const App = () => {
                     <Switch>
                         <Route exact path='/' render={() => <Redirect to={'/main'}/>}/>
                         <Route exact path='/main' render={() => <Main/>}/>
-                        <Route exact path='/parents' render={() => <Parents/>}/>
-                        <Route  path='/parents/females' render={() => <FemalesParents/>}/>
-                        <Route  path='/parents/males' render={() => <MaleParentContainer/>}/>
+                        <Route exact path='/parents/' render={() => <Parents/>}/>
+                        {parents.map((parent, i) => <Route exact path={`/parents/${parent.name}`} render={() =>
+                            <ParentContainer key={i} sliderArray={parent.sliderArray}
+                                             name={parent.name}
+                                             birthDate={parent.birthDate}
+                                             color={parent.color}/>}>
+                        </Route>)}
                         {/*<Route path='/kittens' render={() => <Kittens/>}/>*/}
                         {/*<Route path='/exhibitions' render={() => <Exhibitions/>}/>*/}
                         {/*<Route path='/reviews' render={() => <Reviews/>}/>*/}
