@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/cattery/static/css/main.146cb69d.chunk.css",
-    "main.js": "/cattery/static/js/main.b555c159.chunk.js",
-    "main.js.map": "/cattery/static/js/main.b555c159.chunk.js.map",
+    "main.css": "/cattery/static/css/main.78d60957.chunk.css",
+    "main.js": "/cattery/static/js/main.b2666c33.chunk.js",
+    "main.js.map": "/cattery/static/js/main.b2666c33.chunk.js.map",
     "runtime-main.js": "/cattery/static/js/runtime-main.d0fc9111.js",
     "runtime-main.js.map": "/cattery/static/js/runtime-main.d0fc9111.js.map",
     "static/css/2.5b09f010.chunk.css": "/cattery/static/css/2.5b09f010.chunk.css",
-    "static/js/2.8a3b9b1b.chunk.js": "/cattery/static/js/2.8a3b9b1b.chunk.js",
-    "static/js/2.8a3b9b1b.chunk.js.map": "/cattery/static/js/2.8a3b9b1b.chunk.js.map",
+    "static/js/2.a811ccab.chunk.js": "/cattery/static/js/2.a811ccab.chunk.js",
+    "static/js/2.a811ccab.chunk.js.map": "/cattery/static/js/2.a811ccab.chunk.js.map",
     "index.html": "/cattery/index.html",
-    "precache-manifest.788f6208c85fb6a20b3b2c6d321162dc.js": "/cattery/precache-manifest.788f6208c85fb6a20b3b2c6d321162dc.js",
+    "precache-manifest.288ccb71640d84d80ab124b03de55219.js": "/cattery/precache-manifest.288ccb71640d84d80ab124b03de55219.js",
     "service-worker.js": "/cattery/service-worker.js",
     "static/css/2.5b09f010.chunk.css.map": "/cattery/static/css/2.5b09f010.chunk.css.map",
-    "static/css/main.146cb69d.chunk.css.map": "/cattery/static/css/main.146cb69d.chunk.css.map",
-    "static/js/2.8a3b9b1b.chunk.js.LICENSE.txt": "/cattery/static/js/2.8a3b9b1b.chunk.js.LICENSE.txt",
-    "static/media/1.jpg": "/cattery/static/media/1.51cdff40.jpg",
+    "static/css/main.78d60957.chunk.css.map": "/cattery/static/css/main.78d60957.chunk.css.map",
+    "static/js/2.a811ccab.chunk.js.LICENSE.txt": "/cattery/static/js/2.a811ccab.chunk.js.LICENSE.txt",
+    "static/media/1.jpg": "/cattery/static/media/1.eb56ab5c.jpg",
     "static/media/2.jpg": "/cattery/static/media/2.f09b9a4f.jpg",
-    "static/media/3.jpg": "/cattery/static/media/3.9e57b983.jpg",
-    "static/media/4.jpg": "/cattery/static/media/4.0f1a4e97.jpg",
+    "static/media/3.jpg": "/cattery/static/media/3.f4d814ff.jpg",
+    "static/media/4.jpg": "/cattery/static/media/4.11482d0c.jpg",
+    "static/media/5.jpg": "/cattery/static/media/5.de2d3d9d.jpg",
+    "static/media/6.jpg": "/cattery/static/media/6.9e1028d8.jpg",
     "static/media/Main.module.css": "/cattery/static/media/MainPhoto.cf784403.jpg",
     "static/media/cat.png": "/cattery/static/media/cat.fa1dce4c.png",
     "static/media/character.png": "/cattery/static/media/character.0f8f2925.png",
@@ -28,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.d0fc9111.js",
     "static/css/2.5b09f010.chunk.css",
-    "static/js/2.8a3b9b1b.chunk.js",
-    "static/css/main.146cb69d.chunk.css",
-    "static/js/main.b555c159.chunk.js"
+    "static/js/2.a811ccab.chunk.js",
+    "static/css/main.78d60957.chunk.css",
+    "static/js/main.b2666c33.chunk.js"
   ]
 }
