@@ -13,6 +13,7 @@ function ParentContainer(props) {
                               name={props.name}
                               birthDate={props.birthDate}
                               color={props.color}
+                              youtubeLink={props.youtube}
                           />
         </div>
     );

@@ -33,22 +33,25 @@ type ParentType = {
     birthDate: string
     color: string
     sex:string
+    youtube?:string
 }
 
 type InitialStateType = {
     parents: Array<ParentType>
 };
 
+
+
 let initialState: InitialStateType = {
     parents: [{
         sliderArray: [cat1, cat2, cat3, cat4], name: "Grammy Mur Old Race",
         birthDate: "25.06.2018", color: "Brown (Black) Spotted Tabby",
-        sex:"male"
+        sex:"male",youtube:"c5Ah6mz_t3k"
     },{
         sliderArray: [LucCat1, LucCat2, LucCat3], name: "Paradiseapple Lucius",
         birthDate: "07.06.2019", color: "Seal lynx point",sex:"male"
     },{
-        sliderArray: [Prada1, Prada2, Prada3], name: "Sunhunters Prada",
+        sliderArray: [Prada1, Prada2, Prada3,], name: "Sunhunters Prada",
         birthDate: "25.02.2019", color: "Brown (Black) Spotted Tabby",sex:"female"
     },{
         sliderArray: [Ferr1, Ferr2, Ferr3,Ferr4,Ferr5,Ferr6], name: "Sunhunters Ferrari",

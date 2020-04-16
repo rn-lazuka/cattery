@@ -10,7 +10,6 @@ import ParentContainer from "./components/Parents/MalesParents/ParentContainer";
 import {useSelector} from "react-redux";
 
 
-
 const App = () => {
     const parents = useSelector((state) => state.parents.parents);
     return (
@@ -26,7 +25,8 @@ const App = () => {
                             <ParentContainer key={i} sliderArray={parent.sliderArray}
                                              name={parent.name}
                                              birthDate={parent.birthDate}
-                                             color={parent.color}/>}>
+                                             color={parent.color}
+                                             youtube={parent.youtube}/>}>
                         </Route>)}
                         {/*<Route path='/kittens' render={() => <Kittens/>}/>*/}
                         {/*<Route path='/exhibitions' render={() => <Exhibitions/>}/>*/}
