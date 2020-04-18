@@ -1,10 +1,12 @@
 import ThunkMiddleWare from 'redux-thunk'
 import ParentsReducer from './ParentsReducer'
 import {applyMiddleware, combineReducers, compose, createStore} from "redux"
+import KittensReducer from "./KittensReducer";
 
 let rootReducer = combineReducers(
     {
         parents: ParentsReducer,
+        kittens: KittensReducer
     }
 );
 

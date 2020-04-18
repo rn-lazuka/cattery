@@ -6,8 +6,9 @@ import Preloader from "./components/common/Preloader/Preloader";
 import Main from "./components/Main/Main";
 import {compose} from "redux";
 import Parents from "./components/Parents/Parents";
-import ParentContainer from "./components/Parents/MalesParents/ParentContainer";
+import ParentContainer from "./components/Parents/Parent/ParentContainer";
 import {useSelector} from "react-redux";
+import Kittens from "./components/Kittens/Kittens";
 
 
 const App = () => {
@@ -27,6 +28,14 @@ const App = () => {
                                              birthDate={parent.birthDate}
                                              color={parent.color}
                                              youtube={parent.youtube}/>}>
+                        </Route>)}
+                        <Route exact path='/kittens/' render={() => <Kittens/>}/>
+                        {parents.map((kitten, i) => <Route exact path={`/kittens/${kitten.name}`} render={() =>
+                            <ParentContainer key={i} sliderArray={kitten.sliderArray}
+                                             name={kitten.name}
+                                             birthDate={kitten.birthDate}
+                                             color={kitten.color}
+                                             youtube={kitten.youtube}/>}>
                         </Route>)}
                         {/*<Route path='/kittens' render={() => <Kittens/>}/>*/}
                         {/*<Route path='/exhibitions' render={() => <Exhibitions/>}/>*/}

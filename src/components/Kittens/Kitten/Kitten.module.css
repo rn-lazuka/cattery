@@ -1,0 +1,30 @@
+.wrapper {
+    display: flex;
+    height: 85vh;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.description {
+
+}
+
+.sliderModule {
+    width: 50%;
+}
+
+@media (max-device-width: 1020px) {
+    .wrapper {
+        display: flex;
+        height: 85vh;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sliderModule {
+        width: 100%;
+    }
+
+}
