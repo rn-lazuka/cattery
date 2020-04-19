@@ -32,10 +32,11 @@ class Kitten extends React.Component {
                             <div>Tests of parents: <b>PK def N/N, PRA-b N/N</b></div>
                         </div>
                         {this.props.youtubeLink?
-                            <YouTube
-                                videoId={this.props.youtubeLink}
-                                opts={this.opts}
-                            /> : null}
+                            <iframe width="640" height="360" src={this.props.youtubeLink}
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowFullScreen>
+                            </iframe> : null}
                     </div>
                     <div className={s.sliderModule}>
                         <ImageGallery

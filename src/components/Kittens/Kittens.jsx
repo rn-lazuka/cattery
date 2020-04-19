@@ -6,33 +6,28 @@ import {Link} from "react-router-dom";
 
 
 function Kittens() {
-    const parents = useSelector((state) => state.parents.parents);
+    const kittens = useSelector((state) => state.kittens.kittens);
     const dispatch = useDispatch();
     return (
         <div>
             <div className={'blockForNav'}></div>
             <div className={s.container}>
                 <div className={s.wrapper}>
-                    <h1>Males</h1>
                     <div className={s.items}>
-                        {parents.map((parent, i) => {
-                            if (parent.sex === "male") {
-                                return <div className={s.itemContainer}><Link to={`/parents/${parent.name}`}>
-                                    <div>{parent.name}</div>
-                                    <div className={s.item} style={{backgroundImage: `url(${parent.sliderArray[0]})`}}/>
-                                </Link></div>
-                            }
-                        })}
-                    </div>
-                    <h1>Females</h1>
-                    <div className={s.items}>
-                        {parents.map((parent, i) => {
-                            if (parent.sex === "female") {
-                                return <div className={s.itemContainer}><Link to={`/parents/${parent.name}`}>
-                                    <div>{parent.name}</div>
-                                    <div className={s.item} style={{backgroundImage: `url(${parent.sliderArray[0]})`}}/>
-                                </Link></div>
-                            }
+                        {kittens.map((kitten, i) => {
+                            return <div className={s.item} style={{backgroundImage: `url(${kitten.sliderArray[0]})`}}>
+                                <div className={s.itemContainer}><h2>{kitten.name}</h2>
+                                    <div>
+                                            <div>
+                                                Дата рождения
+                                                <div className={s.info}>{kitten.birthDate}</div>
+                                                <div>Цена в разведение <div className={s.info}>{kitten.price}</div></div>
+                                            </div>
+                                        <div>Пол <div className={s.info}>{kitten.sex}</div></div>
+                                    </div>
+                                    <Link  to={`/kittens/${kitten.name}`}><div className={s.button}>Подробнее</div></Link>
+                                </div>
+                            </div>
                         })}
                     </div>
                 </div>

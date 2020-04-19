@@ -1,5 +1,6 @@
 import {ThunkAction} from "redux-thunk";
 import {AppStateType} from "./store";
+import kitten from '../assets/images/parentsPhotos/Prada/1.jpg'
 
 
 
@@ -12,6 +13,7 @@ type KittenType = {
     color: string
     sex:string
     youtube?:string
+    price:number
 }
 
 type InitialStateType = {
@@ -20,9 +22,9 @@ type InitialStateType = {
 
 let initialState: InitialStateType = {
     kittens: [{
-        sliderArray: [cat1, cat2, cat3, cat4], name: "Grammy Mur Old Race",
+        sliderArray: [kitten], name: "Grammy Mur Old Race",
         birthDate: "25.06.2018", color: "Brown (Black) Spotted Tabby",
-        sex:"male",youtube:"c5Ah6mz_t3k"
+        sex:"male",youtube:"https://www.youtube.com/embed/c5Ah6mz_t3k",price:1500
     },
     ]
 };

@@ -9,10 +9,12 @@ import Parents from "./components/Parents/Parents";
 import ParentContainer from "./components/Parents/Parent/ParentContainer";
 import {useSelector} from "react-redux";
 import Kittens from "./components/Kittens/Kittens";
+import KittenContainer from "./components/Kittens/Kitten/KittenContainer";
 
 
 const App = () => {
     const parents = useSelector((state) => state.parents.parents);
+    const kittens = useSelector((state) => state.kittens.kittens);
     return (
         <div className='app-wrapper'>
             <Header/>
@@ -30,8 +32,8 @@ const App = () => {
                                              youtube={parent.youtube}/>}>
                         </Route>)}
                         <Route exact path='/kittens/' render={() => <Kittens/>}/>
-                        {parents.map((kitten, i) => <Route exact path={`/kittens/${kitten.name}`} render={() =>
-                            <ParentContainer key={i} sliderArray={kitten.sliderArray}
+                        {kittens.map((kitten, i) => <Route exact path={`/kittens/${kitten.name}`} render={() =>
+                            <KittenContainer key={i} sliderArray={kitten.sliderArray}
                                              name={kitten.name}
                                              birthDate={kitten.birthDate}
                                              color={kitten.color}
