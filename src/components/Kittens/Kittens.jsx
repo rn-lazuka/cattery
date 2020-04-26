@@ -16,14 +16,15 @@ function Kittens() {
                     <div className={s.items}>
                         {kittens.map((kitten, i) => {
                             return <div className={s.item} style={{backgroundImage: `url(${kitten.sliderArray[0]})`}}>
-                                <div className={s.itemContainer}><h2>{kitten.name}</h2>
+                                <div className={s.itemContainer}>
+                                    <div><h2>{kitten.name}</h2></div>
                                     <div>
-                                            <div>
-                                                Дата рождения
-                                                <div className={s.info}>{kitten.birthDate}</div>
-                                                <div>Цена в разведение <div className={s.info}>{kitten.price}</div></div>
+                                            <div style={{display:"flex",flexWrap:"wrap",justifyContent:"space-around"}}>
+                                                <div className={s.descriptString}>Дата рождения<div className={s.info}>{kitten.birthDate}</div></div>
+                                                <div className={s.descriptString}>Цена в разведение <div className={s.info}>{kitten.price}$</div></div>
+                                                <div className={s.descriptString}>Пол <div className={s.info}>{kitten.sex}</div></div>
                                             </div>
-                                        <div>Пол <div className={s.info}>{kitten.sex}</div></div>
+
                                     </div>
                                     <Link  to={`/kittens/${kitten.name}`}><div className={s.button}>Подробнее</div></Link>
                                 </div>
